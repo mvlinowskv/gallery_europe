@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 99vw;
+    
+    
+}
+hr {
+    width: 80%;
+    margin-left: 10%;
+    
+}
+
+body {
+    backface-visibility:hidden;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0vh 60vh 100%;
+    margin-top:0;
+}
+
+.header {
+    background-color: darkblue;
+    color: white;
+    
+    grid-column: 1/4;
+    grid-row: 1;
+    text-align: center;
+  
+    
+    
+}
+
+
+.photo {
+    grid-column: 1/6;
+    width: 100%;
+    
+    grid-row: 2;
+    
+   
+   
+    
+}
+.currently-carousel {
+    width: 100%;
+}
+
+
+.card {
+    margin-top: 15%;
+    margin-left: 10%;
+    width: 80%;
+    background-color: white;
+    margin-bottom: 20%;
+
+
+}
+
+
+.cards {
+    width: 100%;
+    background-image: url(marmur.jpg);
+    background-repeat: repeat;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1;
+   
+}
+
+.hidden {
+  overflow: hidden;
+  display: none;
+  visibility: hidden;
+}
+
+@import "compass/css3";
+
+footer {
+ 
+    text-align: center;
+    font-size: 1rem;
+    bottom: 0;
+    color: white;
+    width: 100%;
+    
+    
+    
+    
+}
+.carousel-item {
+    width: 100%;
+}
+
+
+.page {
+    height: 100vh;
+    width: 100vw;
+}
